@@ -370,7 +370,7 @@ if page == "📊 Dashboard":
 
     # ══════════════════════════════════════════════════════
     # TAB 2: ESP32
-    # User selects crop. Random values now, real ESP32 later.
+    # User selects crop. Random values.
     # Just swap 3 lines when hardware is ready.
     # ══════════════════════════════════════════════════════
     with tab2:
@@ -386,7 +386,7 @@ if page == "📊 Dashboard":
         )
         st.markdown("---")
 
-        # Sensor values — random for now
+       
         # ⬇ When ESP32 is connected, replace these 3 lines:
         # temp     = get_blynk("V0")
         # humidity = get_blynk("V1")
